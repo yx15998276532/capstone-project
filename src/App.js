@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/capstone-project">
           <Photos />
         </Route>
-        <Route path="/cart">
+        <Route path="/capstone-project/cart">
           <Cart />
         </Route>
       </Switch>

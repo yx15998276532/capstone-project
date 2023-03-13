@@ -8,10 +8,10 @@ function Header() {
     cartItems.length > 0 ? "ri-shopping-cart-fill" : "ri-shopping-cart-line";
   return (
     <header>
-      <Link to="/">
+      <Link to="/capstone-project">
         <h2>Pic Some</h2>
       </Link>
-      <Link to="/cart">
+      <Link to="capstone-project/cart">
         <i className={`${cartClassName} ri-fw ri-2x`}></i>
       </Link>
     </header>
